@@ -1,0 +1,81 @@
+#print-wrapper{
+   text-align: center;
+}
+.deal-wrapper{
+    text-align: left;
+    width: 45%;
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
+    margin: 10px;
+    border: dashed black 3px;
+    padding: 15px;
+    border-radius: 15px;
+}
+.print-grid-top-row{
+    white-space: nowrap;
+    font-size: 0;
+}
+.print-grid-company{
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    font-size: 10px;
+}
+.print-grid-website{
+    display:inline-block;
+    width: 50%;
+    text-align: right;
+    font-size: 10px;
+}
+.print-grid-logo{
+    text-align: center;
+    max-width: 100%;
+    height: 200px;
+    position: relative;
+}
+.print-grid-logo img{
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.print-grid-details-content{
+    text-align: center;
+    padding-top: 20px;
+}
+.print-grid-details-primary{
+    font-size: 40px;
+}
+.print-grid-details-secondary{
+    font-size: 30px;
+}
+.print-grid-details-tertiary{
+    font-size: 20px;
+}
+.print-grid-contact-content{
+    text-align: center;
+    padding: 20px 30px;
+}
+.print-grid-details-disclaimer{
+    font-size: 12px;
+}
+.print-grid-bottom-row{
+    white-space: nowrap;
+    font-size: 0;
+}
+.print-grid-www{
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    font-size: 10px;
+}
+.print-grid-expiration{
+    display:inline-block;
+    width: 50%;
+    text-align: right;
+    font-size: 10px;
+}
